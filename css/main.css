@@ -1,26 +1,211 @@
-.header-index {
-  background: rgba(0, 0, 0, 0.45) url(../img/background/header.jpg);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: darken;
-  background-image: url(../img/background/header.jpg);
+.centrado, .header-about, .header-index {
   align-items: center;
   justify-content: center;
   height: 90vh;
   display: flex;
 }
 
-.header-about {
-  background: rgba(0, 0, 0, 0.45) url(../img/background/sobreMi-header.jpg);
+.header-index {
+  background: rgba(0, 0, 0, 0.45) url(../img/background/header.jpg);
+  background-image: url(../img/background/header.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: darken;
-  align-items: center;
-  justify-content: center;
-  height: 90vh;
-  display: flex;
+}
+
+.header-about {
+  background: rgba(0, 0, 0, 0.45) url(../img/background/sobreMi-header.jpg);
+  background-image: url(../img/background/sobreMi-header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.cuerpo-index {
+  height: auto;
+}
+
+.cuerpo-portafolio {
+  height: 120vh;
+  background-color: rgb(191, 201, 202);
+}
+@media (max-width: 991px) {
+  .cuerpo-portafolio {
+    height: 170vh;
+  }
+}
+
+.columna-index {
+  height: 500px;
+}
+
+.columnas-about {
+  height: 500px;
+}
+
+.columna-gif {
+  background: rgba(0, 0, 0, 0.45) url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+  background-image: url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.contenedor-imagenes-conocimientos {
+  width: 50%;
+  height: 50%;
+}
+@media (max-width: 991px) {
+  .contenedor-imagenes-conocimientos {
+    width: 75%;
+  }
+}
+
+.img-conocimientos {
+  background-color: rgb(191, 201, 202);
+  height: 130px;
+  width: 45%;
+  border-radius: 50%;
+  margin: 1%;
+}
+.img-conocimientos:hover {
+  transform: rotateY(-360deg);
+  cursor: pointer;
+  transition: transform 2s;
+}
+
+#foto-pricemap {
+  width: 95%;
+  height: 45% !important;
+}
+
+.img-redes {
+  width: 50px;
+  height: auto;
+}
+
+.bg-gray {
+  background-color: rgb(191, 201, 202);
+}
+
+.bg-beige {
+  background-color: beige;
+}
+
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+footer a {
+  text-decoration: none;
+}
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+@media (max-width: 991px) {
+  .cuadrado {
+    width: 87% !important;
+  }
+}
+
+@media (max-width: 300px) {
+  #mi_foto {
+    width: 85%;
+    height: 75%;
+  }
+}
+
+@keyframes opacidad {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.mano {
+  animation: saludo 2.5s infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes python_k {
+  0% {
+    width: 0% !important;
+  }
+  50% {
+    width: 50% !important;
+  }
+  100% {
+    width: 100% !important;
+  }
+}
+@keyframes saludo {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(15deg);
+  }
+  50% {
+    transform: rotate(-8deg);
+  }
+  75% {
+    transform: rotate(14deg);
+  }
+  100% {
+    transform: rotate(-4deg);
+  }
+}
+@keyframes nombre {
+  0% {
+    transform: skewX(0deg);
+  }
+  25% {
+    transform: skewX(-25deg);
+  }
+  50% {
+    transform: skewX(0deg);
+  }
+  75% {
+    transform: skewX(25deg);
+  }
+  100% {
+    transform: skewX(0deg);
+  }
+}
+.python {
+  animation-name: python_k;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+.mi-nombre {
+  animation-name: nombre;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+}
+
+.cuadrado {
+  animation-name: opacidad;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-duration: 2s;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+  width: 50%;
+  height: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */

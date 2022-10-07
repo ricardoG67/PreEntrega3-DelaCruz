@@ -1,0 +1,61 @@
+//ANIMACIONES
+@keyframes opacidad{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+.mano{
+	animation: saludo 2.5s infinite;
+	transform-origin: 70% 70%;
+	display: inline-block;
+}
+
+@keyframes python_k {
+    0%{width: 0%!important;}
+    50%{width: 50%!important;}
+    100%{width: 100%!important;}
+}
+
+@keyframes saludo {
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(15deg);}
+	50%{transform: rotate(-8deg);}
+	75%{transform: rotate(14deg);}
+	100%{transform: rotate(-4deg);}
+}
+
+@keyframes nombre {
+	0%{transform: skewX(0deg);}
+	25%{transform: skewX(-25deg);}
+	50%{transform: skewX(0deg);}
+	75%{transform: skewX(25deg);}
+	100%{transform: skewX(0deg);}
+}
+
+@mixin animaciones($nombre){
+    animation-name: $nombre;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+    @if $nombre==opacidad{
+        animation-duration: 2s;
+    }
+}
+
+.python{
+    @include animaciones(python_k)
+}
+
+.mi-nombre{
+    @include animaciones(nombre)
+}
+
+.cuadrado{
+    @include animaciones(opacidad);
+    background-color: $colorBlack;
+    border-radius: 5%;
+    width: 50%;
+    height: 50%;
+}
+//termina animaciones
