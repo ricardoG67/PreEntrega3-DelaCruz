@@ -1,0 +1,121 @@
+/* el css de la entrega 1 (debido a que solo se usan 2 páginas con grid y responsive) */
+/* Este css es para todo lo que no está con GRID ni Bootstrap en un futuro se realizará la
+reestructuración de estos htmls cambiando todo el css */
+
+.header-blog{
+    height: 550px;
+    background-image: none;
+    flex-flow: column;
+    padding-bottom: 50px;
+}
+
+    .header-blog h2{
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .container-noticias{
+        width: 90%;
+        margin-top: 10px;
+        height:400px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    .header-noticias{
+        width: 25%;
+        border: 1px solid black;
+        height: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding: 30px;
+        
+    }
+
+        .header-noticias h4{
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            
+        }
+
+        .header-noticias p{
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+.header-portafolio{
+    height: 50px;
+    background-image: none;
+    padding-top: 10px;
+}   
+
+    .header-portafolio h2{
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+.contacto{
+    width: 100%;
+    height: 600px;
+    display: flex;  
+    flex-direction: row;
+
+}
+
+.section-form{
+    width: 30%;
+    height: 100%;
+}
+
+    .section-form form{
+        padding-top: 150px;        
+    }
+
+.section-contacto{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+}
+
+.redesSociales{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.section-contacto h3{
+    padding-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.section-contacto p{
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.section-contacto img{
+    padding-top: 20px;
+    height: auto;
+    width: 40px;
+}
+
+#contacto{
+    margin-right: auto;
+    margin-left: 50px;
+}
+
+.redesSociales a{
+    display: block;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}

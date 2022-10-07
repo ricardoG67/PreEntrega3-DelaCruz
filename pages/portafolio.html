@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Ricardo De la Cruz</title>
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="../css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- INICIALIZA NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" id="botonera">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Mi portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="sobreMi.html">Sobre mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- ACABA NAV -->
+
+    <!-- INICIA MAIN -->
+    <main class="container-fluid cuerpo-portafolio h-50">
+        <div class="row text-center pt-3">
+            <h3>MIS PROYECTOS</h3>
+            <h2>Estos son unos de mis proyectos en los que he contribuido</h2>
+            <div class="container-fluid w-75 bg-white my-5">
+                <div class="row m-2">
+                    <article class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="../img/fotos/pricemap.PNG" alt="" class="w-100 img-thumbnail">
+                        <h2>PRICEMAP</h2>
+                        <p>Página web basada en scraping. Está página publica de forma visual los cambios de precios de productos de la canasta basica
+                        dentro de los principales supermercados peruanos. Muestra su variación, precio minimo, medio y máximo. Realiza scraping 
+                        de los precios unas tres veces al día y son publicados dentro de un servidor local para luego ser publicados en la web.
+                        </p>
+                    </article>
+                    <!-- ends box I -->
+                    <article class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="https://www.researchgate.net/profile/Gonzalo-Garcia/publication/321738604/figure/fig1/AS:570557617762304@1513042944218/Haptic-Vest-seen-from-front-left-and-rear-right-The-hardware-control.png" alt="" class="w-100 img-thumbnail">
+                        <h2>Chaleco para invidentes</h2>
+                        <p>Chaleco diseñado con el microcontrolador Arduino. Es un chaleco el cual mediante vibraciones avisa al usuario acerca 
+                            de algun objeto cercano. 
+                        </p>
+                    </article>
+                    <!-- ends box II -->
+                    <article class="col-sm-12 col-md-6 col-lg-3">
+                        <img src="https://pixmap.io/assets/img/img-central.png" alt="" class="w-100 img-thumbnail">
+                        <h2>Pixmap</h2>
+                        <p>Modelo predictor de visualización. Este proyecto móvil obtiene como input una imagen en donde
+                            mediante algoritmos de machine learning predice cuales son los puntos en donde las personas 
+                            verán más dentro de la misma. Este proyecto es para todo el público, lo puedes descargar en su web!
+                        </p>
+                        <a class="btn bg-deeppink text-white mb-3 w-100" href="#">Primary</a>
+                    </article>
+                    <!-- ends box III -->
+                    <article class="col-sm-12 col-md-6 col-lg-3">
+                        <h2>Analisis de sentimiento</h2>
+                        <p>Analisador de sentimiento. Este proyecto es un analisis de sentimiento para empresas de comida rápida en Perú. Se trabajo con Flask y se hizo uso de un modelo en tensorflow que se importo dentro del proyecto.
+                            Se analiza los comentarios de las ultimas cinco publicaciones de una página de FB de comida rápida y determina
+                            si los comentarios son buenos o malos
+                        </p>
+                        <a class="btn bg-deeppink text-white mb-3 w-100" href="#">Primary</a>
+                    </article>
+                    <!-- ends box Iv -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+    <!-- INICIA FOOTER -->
+    <footer class="d-flex container-fluid  justify-content-between p-3 align-items-center">
+        <p>Todos los derechos reservados. Copyright 2022 ©</p>
+
+        <div class="imagenes-footer">
+            <a href="https://www.facebook.com/Ricardo.FSS99/" target="_blank">
+                <img class="footer-img" src="../img/iconos/facebook.png" alt="Sigueme en facebook">
+            </a>
+            <a href="https://www.instagram.com/ricardog67/" target="_blank">
+                <img class="footer-img" src="../img/iconos/instagram.png" alt="Sigueme en instagram">
+            </a>
+            <a href="https://github.com/ricardoG67" target="_blank">
+                <img class="footer-img" src="../img/iconos/github.png" alt="Sigueme en github">
+            </a>
+            <a href="https://www.linkedin.com/in/ricardogabrieldelacruz/" target="_blank">
+                <img class="footer-img" src="../img/iconos/linkedin.png" alt="Sigueme en linkedin">
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

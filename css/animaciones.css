@@ -1,0 +1,54 @@
+@keyframes opacidad{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+.img-conocimientos:hover{
+    transform: rotateY(-360deg);
+	cursor: pointer;
+	transition: transform 2s;
+}
+
+@keyframes saludo {
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(15deg);}
+	50%{transform: rotate(-8deg);}
+	75%{transform: rotate(14deg);}
+	100%{transform: rotate(-4deg);}
+}
+
+.mano{
+	animation: saludo 2.5s infinite;
+	transform-origin: 70% 70%;
+	display: inline-block;
+}
+
+@keyframes nombre {
+	0%{transform: skewX(0deg);}
+	25%{transform: skewX(-25deg);}
+	50%{transform: skewX(0deg);}
+	75%{transform: skewX(25deg);}
+	100%{transform: skewX(0deg);}
+}
+
+.mi-nombre{
+	animation-name: nombre;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+}
+
+@keyframes python_k {
+    0%{width: 0%!important;}
+    50%{width: 50%!important;}
+    100%{width: 100%!important;}
+}
+
+.python{
+	animation-name: python_k;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+}

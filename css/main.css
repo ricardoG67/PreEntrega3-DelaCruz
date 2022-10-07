@@ -1,0 +1,26 @@
+.header-index {
+  background: rgba(0, 0, 0, 0.45) url(../img/background/header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  background-image: url(../img/background/header.jpg);
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  display: flex;
+}
+
+.header-about {
+  background: rgba(0, 0, 0, 0.45) url(../img/background/sobreMi-header.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  display: flex;
+}
+
+/*# sourceMappingURL=main.css.map */

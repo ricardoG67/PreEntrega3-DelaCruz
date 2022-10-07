@@ -1,0 +1,122 @@
+.header-index{
+    background: rgba(0,0,0,0.45)url(../img/background/header.jpg);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: darken;
+    background-image: url(../img/background/header.jpg);
+    align-items: center;
+	justify-content: center;
+    height: 90vh;
+    display: flex;
+}
+
+.header-about{
+    background: rgba(0,0,0,0.45)url(../img/background/sobreMi-header.jpg);
+    background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-blend-mode: darken;
+    align-items: center;
+	justify-content: center;
+    height: 90vh;
+    display: flex;
+}
+
+    .cuadrado{
+        animation-name: opacidad;
+        animation-duration: 2s;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5%;
+        width: 50%;
+        height: 50%;
+    }
+
+
+.cuerpo-index{
+    height: auto;
+}
+
+.cuerpo-portafolio{
+    height: 120vh;
+    background-color: gray;
+}
+
+.columna-index{
+    height: 500px;
+}
+
+.columnas-about{
+    height: 500px;
+}
+
+    .columna-gif{
+        background: rgba(0,0,0,0.35)url(https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-blend-mode: darken;
+    }
+
+    .contenedor-imagenes-conocimientos{
+        width: 50%;
+        height: 50%;
+    }
+
+        .img-conocimientos{
+            background-color: rgba(255, 255, 255, 0.65);
+            height: 130px;
+            width: 45%;
+            border-radius: 50%;
+            margin: 1%;
+        }
+
+        #foto-pricemap{
+            width: 95%;
+            height: 45%!important;
+        }
+
+.bg-gray{
+    background-color: rgb(191, 201, 202);
+}
+
+.bg-beige{
+    background-color: beige;
+}
+
+footer{
+    font-family: 'Roboto', sans-serif;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+    footer a{
+        text-decoration: none;
+    }
+    footer img{
+        width: 30px;
+        height: auto;
+    }
+
+@media (max-width:991px){
+    .cuadrado{
+        width: 83%;
+    }
+
+    .contenedor-imagenes-conocimientos{
+        width: 75%;
+    }
+
+    .cuerpo-portafolio{
+        height: 170vh;
+    }
+}
+@media (max-width:300px) {
+    #mi_foto{
+        width: 85%;
+        height: 75%;
+    }
+
+}
